@@ -32,6 +32,3 @@ def latin(n):
         latin_num = latin_d + latin_num
         
     return latin_num
-
-for i in range(999000, 1000001):
-    print(i, latin(i))
